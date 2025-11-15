@@ -1,27 +1,27 @@
-﻿# 🗨️ Tornado Chat App -- Complete Documentation
+# 🗨️ Tornado Chat App -- Complete Documentation
 
 A fully functional real-time chat application built using **Tornado
 WebSockets**, **MySQL**, HTML/CSS/JS, and Python.
 
-This README includes: - Full features overview\
-- Installation steps\
-- Database setup\
-- Project structure\
-- How to run\
-- How to test\
-- Troubleshooting\
+This README includes: - Full features overview
+- Installation steps
+- Database setup
+- Project structure
+- How to run
+- How to test
+- Troubleshooting
 - Future improvements
 
 ------------------------------------------------------------------------
 
 # 🚀 Features
 
--   ⚡ Real-time chat using WebSockets\
--   🏠 Multiple chat rooms\
--   👤 Auto-user creation\
--   🗃️ Messages stored in MySQL\
--   🔌 Tornado non-blocking server\
--   🎨 Lightweight frontend\
+-   ⚡ Real-time chat using WebSockets
+-   🏠 Multiple chat rooms
+-   👤 Auto-user creation
+-   🗃️ Messages stored in MySQL
+-   🔌 Tornado non-blocking server
+-   🎨 Lightweight frontend
 -   🧩 Easy to modify and extend
 
 ------------------------------------------------------------------------
@@ -35,19 +35,6 @@ Your machine must have:
 -   Python **3.8+**
 -   MySQL Server (8 recommended)
 -   Git (optional)
-
-### **Python packages**
-
-Defined inside `requirements.txt`:
-
-    tornado
-    mysql-connector-python
-
-Install them:
-
-``` bash
-pip install -r requirements.txt
-```
 
 ------------------------------------------------------------------------
 
@@ -178,11 +165,11 @@ Example:
 
 # 📁 Project Structure
 
-    chat-app/
-    │── static/
+    chat-app
+    │── static
     │   ├── script.js
     │   └── style.css
-    │── templates/
+    │── templates
     │   └── index.html
     │── app.py
     │── db.py
@@ -234,18 +221,11 @@ python -m pip install tornado
 
 # 🔧 Future Enhancements
 
--   JSON-based WebSocket protocol\
--   Modern chat UI (Tailwind, Bootstrap)\
--   Login/authentication\
--   Docker + docker-compose (App + MySQL)\
--   Admin message panel\
--   REST API for rooms and users\
+-   JSON-based WebSocket protocol
+-   Modern chat UI 
+-   Docker + docker-compose (App + MySQL)
+-   Admin message panel
+-   REST API for rooms and users
 -   Multi-room UI with user list
-
-------------------------------------------------------------------------
-
-# 📄 License
-
-This project is licensed under the MIT License --- free to use & modify.
 
 ------------------------------------------------------------------------
