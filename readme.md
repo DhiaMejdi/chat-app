@@ -24,12 +24,6 @@ A **modern real-time chat application** with a Tornado backend and React fronten
 - React dependencies: `npm install` in `frontend/` folder
 
 ## 🚀 Setup
-
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/DhiaMejdi/chat-app.git
-cd chat-app
-
 2️⃣ Backend Setup
 
 
@@ -110,3 +104,11 @@ GlareHover.js & Shuffle.js: Frontend UI effects ✨
 
 📜 License
 MIT License 📝
+
+
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/DhiaMejdi/chat-app.git
+cd chat-app
+
